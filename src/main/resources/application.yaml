@@ -16,6 +16,7 @@ spring:
 
   liquibase:
     change-log: classpath:db/changelog/db.changelog-master.yaml
+    default-schema: url_shortener
 
 server:
   port: 8080
